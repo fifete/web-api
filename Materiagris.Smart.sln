@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8058B56F-3C9D-43FD-B42E-9E96CABE7370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9C1FF85F-A3F7-4AD4-B389-46D180781999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B67A5358-F3FF-4A4E-B736-E664F913E37D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{55433509-CF57-4DF5-9965-A926F8904CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.Domain", "src\Materiagris.Smart.Domain\Materiagris.Smart.Domain.csproj", "{5320EDFD-1CAD-4D25-8C9B-5F6FF2BCCB13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.Application.UseCase", "src\Materiagris.Smart.Application\Materiagris.Smart.Application.UseCase.csproj", "{EF7ECB79-5D75-4C6A-B383-6D2B6892BFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.Infrastructure", "src\Materiagris.Smart.Infrastructure\Materiagris.Smart.Infrastructure.csproj", "{243BEDF6-BEDA-4F87-9398-BFC3FEEC3B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.WebApi", "src\Materiagris.Smart.WebApi\Materiagris.Smart.WebApi.csproj", "{21E933B0-0ACF-4991-A852-F2518CC5B7F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.Application.Dto", "src\Materiagris.Smart.Application.Dtos\Materiagris.Smart.Application.Dto.csproj", "{C7D0E413-67D5-43F1-9126-404107B3E7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.Application.Interface", "src\Materiagris.Smart.Application.Interfaces\Materiagris.Smart.Application.Interface.csproj", "{143129DE-F585-4C3F-A9A8-063DAFAE7721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Materiagris.Smart.Persistence", "src\Materiagris.Smart.Persistence\Materiagris.Smart.Persistence.csproj", "{26728DF8-6C90-4571-A198-C9C9D9297DF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5320EDFD-1CAD-4D25-8C9B-5F6FF2BCCB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5320EDFD-1CAD-4D25-8C9B-5F6FF2BCCB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5320EDFD-1CAD-4D25-8C9B-5F6FF2BCCB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5320EDFD-1CAD-4D25-8C9B-5F6FF2BCCB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7ECB79-5D75-4C6A-B383-6D2B6892BFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7ECB79-5D75-4C6A-B383-6D2B6892BFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7ECB79-5D75-4C6A-B383-6D2B6892BFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7ECB79-5D75-4C6A-B383-6D2B6892BFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243BEDF6-BEDA-4F87-9398-BFC3FEEC3B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243BEDF6-BEDA-4F87-9398-BFC3FEEC3B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243BEDF6-BEDA-4F87-9398-BFC3FEEC3B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243BEDF6-BEDA-4F87-9398-BFC3FEEC3B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E933B0-0ACF-4991-A852-F2518CC5B7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E933B0-0ACF-4991-A852-F2518CC5B7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E933B0-0ACF-4991-A852-F2518CC5B7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E933B0-0ACF-4991-A852-F2518CC5B7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D0E413-67D5-43F1-9126-404107B3E7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D0E413-67D5-43F1-9126-404107B3E7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D0E413-67D5-43F1-9126-404107B3E7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D0E413-67D5-43F1-9126-404107B3E7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143129DE-F585-4C3F-A9A8-063DAFAE7721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143129DE-F585-4C3F-A9A8-063DAFAE7721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143129DE-F585-4C3F-A9A8-063DAFAE7721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143129DE-F585-4C3F-A9A8-063DAFAE7721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26728DF8-6C90-4571-A198-C9C9D9297DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26728DF8-6C90-4571-A198-C9C9D9297DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26728DF8-6C90-4571-A198-C9C9D9297DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26728DF8-6C90-4571-A198-C9C9D9297DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5320EDFD-1CAD-4D25-8C9B-5F6FF2BCCB13} = {9C1FF85F-A3F7-4AD4-B389-46D180781999}
+		{EF7ECB79-5D75-4C6A-B383-6D2B6892BFA1} = {8058B56F-3C9D-43FD-B42E-9E96CABE7370}
+		{243BEDF6-BEDA-4F87-9398-BFC3FEEC3B19} = {B67A5358-F3FF-4A4E-B736-E664F913E37D}
+		{21E933B0-0ACF-4991-A852-F2518CC5B7F0} = {55433509-CF57-4DF5-9965-A926F8904CA5}
+		{C7D0E413-67D5-43F1-9126-404107B3E7DC} = {8058B56F-3C9D-43FD-B42E-9E96CABE7370}
+		{143129DE-F585-4C3F-A9A8-063DAFAE7721} = {8058B56F-3C9D-43FD-B42E-9E96CABE7370}
+		{26728DF8-6C90-4571-A198-C9C9D9297DF4} = {B67A5358-F3FF-4A4E-B736-E664F913E37D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {205B55E0-BBCB-4425-93F3-56DE69F572D6}
+	EndGlobalSection
+EndGlobal
